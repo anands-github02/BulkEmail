@@ -1,0 +1,230 @@
+/* h1 {
+  color: red;
+}
+
+.email_container {
+  margin: 0 auto;
+  border: 1px solid #dbcdcd;
+  padding: 8px 24px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.from_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  width: 90%;
+  margin: 1rem auto;
+
+}
+
+.from_select {
+  padding: 8px 24px;
+}
+
+.to_container {
+  width: 1253px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow: hidden;
+  border: 1px solid #dbcdcd;
+  padding: 8px 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading1 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+.email_box {
+  border: 1px solid gray;
+  border-radius: 24px;
+  width: 170px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: '8px';
+  overflow: hidden;
+  padding: 2px 6px;
+}
+
+.fields {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 40px;
+}
+
+#cancle:hover{
+  background-color: rgb(237, 65, 65);
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+#cancle{
+  margin-bottom: 40px;
+}
+
+#send{
+  margin-bottom: 40px;
+}
+
+#send:hover{
+  background-color: rgb(40, 188, 40);
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+#add:hover{
+  background-color: rgb(1, 1, 1);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.page{
+  border-radius: 15px;
+  box-shadow: 0 0 5px;
+} */
+
+
+
+.composed{
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  right: 70px;
+  width: 1400px;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px rgb(51, 51, 51);
+  background-color: white;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgb(253, 37, 131) 0%, rgb(254, 88, 91) 100%);
+  color: white;
+  font-family: 'Comic Sans MS';
+  font-weight: bold;
+  align-items: center;
+  padding: 17px 15px;
+}
+
+span{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.bodyform{
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyform input{
+  width: 98.5%;
+  margin: 0 auto;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
+  padding: 10px 10px;
+}
+
+.bodyform textarea{
+  width: 98.5%;
+  height: auto;
+  padding: 10px 10px;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #333;
+}
+
+.right {
+  text-align: right;
+}
+
+#send {
+  padding: 7px 25px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+#send1{
+  padding: 7px 25px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#send:hover{
+  background-color: rgb(68, 68, 68);
+  color: white;
+  border: 1px solid rgb(68, 68, 68);
+}
+
+.email_box {
+  border: 1px solid gray;
+  border-radius: 24px;
+  margin-bottom: 10px;
+  width: auto; 
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+  overflow: hidden;
+  padding: 2px 6px;
+  margin-left: 12px;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+.email_container {
+  margin: 0 auto;
+  border: 1px solid #dbcdcd;
+  padding: 8px 24px;
+  background-color: rgb(255, 255, 255);
+}
+
+#sub{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
