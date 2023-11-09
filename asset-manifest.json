@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BulkEmail/static/css/main.b7a631b4.css",
+    "main.js": "/BulkEmail/static/js/main.55b9cfbe.js",
+    "static/js/787.e76d8399.chunk.js": "/BulkEmail/static/js/787.e76d8399.chunk.js",
+    "index.html": "/BulkEmail/index.html",
+    "main.b7a631b4.css.map": "/BulkEmail/static/css/main.b7a631b4.css.map",
+    "main.55b9cfbe.js.map": "/BulkEmail/static/js/main.55b9cfbe.js.map",
+    "787.e76d8399.chunk.js.map": "/BulkEmail/static/js/787.e76d8399.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7a631b4.css",
+    "static/js/main.55b9cfbe.js"
+  ]
+}
