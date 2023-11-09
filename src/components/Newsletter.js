@@ -5,6 +5,8 @@ import '../App.css';
 import { MenuItem, Select } from '@mui/material';
 import EmailContainer from './EmailContainer';
 import * as XLSX from 'xlsx/xlsx.mjs';
+import { ServiceBusClient } from "@azure/service-bus";
+
 
 // Declaring Variables
 const Newsletter = () => {
@@ -72,6 +74,32 @@ const Newsletter = () => {
             }
         }
     };
+    console.log(firstColumnData)
+
+    async function sendDataToAzureServiceBus() {
+        const connectionString = "https://boldhanger.servicebus.windows.net/marketingmailers";
+        const queueName = "marketingmailers";
+        const serviceBusClient = new ServiceBusClient(connectionString);
+        const sender = serviceBusClient.createSender(queueName);
+      
+        try {
+          const message = {
+            body: JSON.stringify({
+                Subject:'Hari',
+                Body:'Anand',
+                RecipientsEmails:firstColumnData,    
+            }),
+          };
+          await sender.sendMessages(message);
+          alert("Message sent successfully.");
+        } finally {
+          await sender.close();
+          await serviceBusClient.close();
+        }
+      }
+
+
+
 
     // User Interface Part of the Bulk Email 
     return (
@@ -210,7 +238,7 @@ const Newsletter = () => {
                             onChange={handleFileUpload}
                         />
                         {/* Send Button */}
-                        <button id='send' type='submit'>Send</button>
+                        <button id='send' type='button' onClick={()=>{sendDataToAzureServiceBus()}}>Send</button>
                         {/* Previous Code of the UI Design */}
                         {/* <div className='email_container'>
                 <h1> MyhraKi Newsletter</h1>
