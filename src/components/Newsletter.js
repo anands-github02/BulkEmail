@@ -79,7 +79,7 @@ const Newsletter = () => {
             <div className='composed'>
                 <div className='header'>
                     <div className='text'>
-                        <span>MyhraKi Newsletter</span>
+                        <span>Bulk E-mail Sender</span>
                     </div>
                 </div>
 
@@ -92,12 +92,12 @@ const Newsletter = () => {
                             onChange={(event) => { setSenderEmail(event.target.value) }}
                         >
                             <MenuItem className='from_select' value={11} disabled>
-                                Sender E-mail
+                                From
                             </MenuItem>
-                            <MenuItem className='from_select' value={1}>manasi@gmail.com</MenuItem>
-                            <MenuItem className='from_select' value={2}>anand@gmail.com</MenuItem>
-                            <MenuItem className='from_select' value={3}>amrutha@gmail.com</MenuItem>
-                            <MenuItem className='from_select' value={4}>axxxx@gmail.com</MenuItem>
+                            <MenuItem className='from_select' value={1}>abc@gmail.com</MenuItem>
+                            <MenuItem className='from_select' value={2}>def@gmail.com</MenuItem>
+                            <MenuItem className='from_select' value={3}>mno@gmail.com</MenuItem>
+                            <MenuItem className='from_select' value={4}>xyz@gmail.com</MenuItem>
                         </Select>
 
                         {/* To E-mail */}
